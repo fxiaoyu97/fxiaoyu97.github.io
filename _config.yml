@@ -139,14 +139,14 @@ gitment:
     owner: fxiaoyu97
     repo: blog-comments
     oauth:
-        client_id: 404ddbb81aae52b16e22
-        client_secret: 9f8047d167d30f79dc4a6747a27410a1cb0a9932
+        client_id: 9f554f93737f265dd465
+        client_secret: 1eca2d49c1cf82013aab4da92ec5340d1fca9324
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: fxiaoyu97
     repo: blog-comments
-    clientID: 404ddbb81aae52b16e22
-    clientSecret: 9f8047d167d30f79dc4a6747a27410a1cb0a9932
+    clientID: 9f554f93737f265dd465
+    clientSecret: 1eca2d49c1cf82013aab4da92ec5340d1fca9324
 # https://utteranc.es/
 utterances:
     repo: fxiaoyu97/blog-comments
