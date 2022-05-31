@@ -1,0 +1,3 @@
+<template><h1 id="说说-countdownlatch-原理" tabindex="-1"><a class="header-anchor" href="#说说-countdownlatch-原理" aria-hidden="true">#</a> 说说 CountDownLatch 原理</h1>
+<p>CountDownLatch 内部维护了一个整数 <code v-pre>n</code>，n（要大于等于0）在 <strong>当前线程</strong> 初始化 <code v-pre>CountDownLatch</code> 方法指定。当前线程调用 <code v-pre>CountDownLatch</code> 的 <code v-pre>await()</code> 方法阻塞当前线程，等待其他调用 <code v-pre>CountDownLatch</code> 对象的 <code v-pre>CountDown()</code> 方法的线程执行完毕。 其他线程调用该 <code v-pre>CountDownLatch</code> 的 <code v-pre>CountDown()</code> 方法，该方法会把 <code v-pre>n-1</code>，直到所有线程执行完成，<code v-pre>n</code> 等于 <code v-pre>0</code>，<strong>当前线程</strong> 就恢复执行。</p>
+</template>
