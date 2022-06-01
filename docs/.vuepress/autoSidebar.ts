@@ -42,7 +42,14 @@ function needFilter(file: string): boolean {
   // if(arr.lastIndexOf('jpg')!=-1 || arr.lastIndexOf('jpeg')!=-1 || arr.lastIndexOf('png')!=-1) return true;
   return false;
 }
-
+ /**
+  * 获取指定文件夹的文章目录
+  * 
+  * @param filePath 文章文件夹路径
+  * @param fileDepth 小于等于这个深度的文件夹的文章都不折叠
+  * @param moreArr 侧边栏还需要额外添加的目录
+  * @returns 侧边栏目录
+  */
 export function getChildren(filePath: string, fileDepth: number = 0, moreArr: Array<any> = new Array<any>()): Array<any> {
   let result = Array<any>();
   let rootPath = getRootPath(filePath);
@@ -55,7 +62,7 @@ export function getChildren(filePath: string, fileDepth: number = 0, moreArr: Ar
       const stat = fs.statSync(path.join(rootPath, file))
       if (stat.isDirectory()) {
         let item = new SidebarItem(getPathText(file));
-        item.collapsible = fileDepth === 0 ? false : true;
+        item.collapsible = fileDepth <= 0 ? false : true;
         item.children = getChildren(docsPath, fileDepth + 1);
         result.push(item)
       } else {

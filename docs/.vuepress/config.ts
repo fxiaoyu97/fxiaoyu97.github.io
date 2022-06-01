@@ -31,7 +31,23 @@ export default defineUserConfig({
             // },
             {
                 text: 'Java',
-                children: ['/Java基础/']
+                children: [
+                    {
+                        text:'Java基础',
+                        link:'/Java基础/',
+                        activeMatch:'^/Java基础/'
+                    }
+                ]
+            },
+            {
+                text: '编程工具',
+                children: [
+                    {
+                        text:'Git',
+                        link:'/git/',
+                        activeMatch:'^/git/'
+                    }
+                ]
             },
             {
                 text: '面试宝典',
@@ -47,8 +63,9 @@ export default defineUserConfig({
             // },
         ],
         sidebar: {
-            'Java%E5%9F%BA%E7%A1%80':getChildren(`Java基础`),
+            '/Java%E5%9F%BA%E7%A1%80/':getChildren(`Java基础`),
             '/FQA/': getChildren(`FQA`),
+            '/git/': getChildren(`git`),
             '/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/': getChildren(`面试宝典`),
         }
     }),
