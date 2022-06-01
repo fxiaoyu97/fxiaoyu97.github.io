@@ -14,7 +14,7 @@ export default defineUserConfig({
             href: '/img/geass-bg.ico'
         }],
     ],
-    base: '/calos/', // 这是部署到github相关的配置
+    base: '/', // 这是部署到github相关的配置
     theme: defaultTheme({
         logo: 'https://vuejs.org/images/logo.png',
         sidebarDepth: 1, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
