@@ -1,3 +1,0 @@
-<template><h1 id="前后端分离是如何做的" tabindex="-1"><a class="header-anchor" href="#前后端分离是如何做的" aria-hidden="true">#</a> 前后端分离是如何做的</h1>
-<p>在前后端分离架构中，后端只需要负责按照约定的数据格式向前端提供可调用的 API 服务即可。前后端之间通过 HTTP 请求进行交互，前端获取到数据后，进行页面的组装和渲染，最终返回给浏览器。</p>
-</template>

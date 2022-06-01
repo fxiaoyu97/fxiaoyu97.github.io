@@ -1,3 +1,0 @@
-<template><h1 id="spring-mvc-启动流程" tabindex="-1"><a class="header-anchor" href="#spring-mvc-启动流程" aria-hidden="true">#</a> Spring MVC 启动流程</h1>
-<p>在 <code v-pre>web.xml</code> 文件中给 Spring MVC 的 Servlet 配置了 <code v-pre>load-on-startup</code>，所以程序启动的时候会初始化 Spring MVC，在 <code v-pre>HttpServletBean</code> 中将配置的 <code v-pre>contextConfigLocation</code> 属性设置到 Servlet 中，然后在 <code v-pre>FrameworkServlet</code> 中创建了 <code v-pre>WebApplicationContext</code>，<code v-pre>DispatcherServlet</code> 根据 <code v-pre>contextConfigLocation</code> 配置的 <code v-pre>classpath</code> 下的 xml 文件初始化了 Spring MVC 总的组件。</p>
-</template>
