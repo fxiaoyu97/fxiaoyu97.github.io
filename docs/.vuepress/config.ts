@@ -4,7 +4,7 @@ import { getChildren } from './autoSidebar'
 export default defineUserConfig({
     lang: 'zh-CN',
     title: '三更编程',
-    description: '瑾色流年，追梦少年',
+    description: '三更编程，洛小豆',
     head: [
         // 增加一个自定义的 favicon(网页标签的图标)
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
