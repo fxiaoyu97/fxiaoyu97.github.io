@@ -57,6 +57,16 @@ export default defineUserConfig({
                 text: '算法',
                 link: '/算法/'
             },
+            {
+                text: '项目笔记',
+                children: [
+                    {
+                        text:'Vue3+TS二次重构element-plus组件',
+                        link:'/Java基础/',
+                        activeMatch:'^/Java基础/'
+                    }
+                ]
+            },
             // {
             //     text: '关于我',
             //     link: '/FQA/'
