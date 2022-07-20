@@ -24,10 +24,10 @@ export default defineUserConfig({
     lastUpdated: false,
     contributors: false,
     navbar: [
-      {
-        text: '前端',
-        children: ['/前端/']
-      },
+      // {
+      //   text: '前端',
+      //   children: ['/前端/']
+      // },
       // {
       //     text: '后端',
       //     link: '/FQA/'
@@ -64,11 +64,11 @@ export default defineUserConfig({
       {
         text: '算法',
         link: '/算法/'
-      },
-      {
-        text: '项目笔记',
-        link: '/项目笔记/'
       }
+      // {
+      //   text: '项目笔记',
+      //   link: '/项目笔记/'
+      // }
       // {
       //     text: '关于我',
       //     link: '/FQA/'
@@ -79,8 +79,8 @@ export default defineUserConfig({
       '/FQA/': getChildren(`FQA`),
       '/git/': getChildren(`git`),
       '/Spring/': getChildren(`Spring`),
-      '/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/': getChildren(`面试宝典`),
-      '/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/': getChildren(`项目笔记`, 1)
+      '/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/': getChildren(`面试宝典`)
+      // '/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/': getChildren(`项目笔记`, 1)
     }
   })
 })
