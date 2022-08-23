@@ -54,6 +54,11 @@ export default defineUserConfig({
             text: 'Git',
             link: '/git/',
             activeMatch: '^/git/'
+          },
+          {
+            text: 'Maven',
+            link: '/Maven/',
+            activeMatch: '^/Maven/'
           }
         ]
       },
@@ -78,6 +83,7 @@ export default defineUserConfig({
       '/Java%E5%9F%BA%E7%A1%80/': getChildren(`Java基础`),
       '/FQA/': getChildren(`FQA`),
       '/git/': getChildren(`git`),
+      '/Maven/': getChildren(`Maven`),
       '/Spring/': getChildren(`Spring`),
       '/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/': getChildren(`面试宝典`)
       // '/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/': getChildren(`项目笔记`, 1)
