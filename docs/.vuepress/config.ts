@@ -97,7 +97,7 @@ export default defineUserConfig({
       '/Maven/': getChildren(`Maven`),
       '/Spring/': getChildren(`Spring`),
       '/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/': getChildren(`面试宝典`),
-      '/Java工程师/': getChildren(`Java工程师`),
+      '/Java%E5%B7%A5%E7%A8%8B%E5%B8%88/': getChildren(`Java工程师`),
       '/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88/':
         getChildren(`前端工程师`)
       // '/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/': getChildren(`项目笔记`, 1)
