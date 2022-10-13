@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-058de1f9","path":"/FQA/windows/idea%E5%BF%AB%E6%8D%B7%E9%94%AE.html","title":"idea\u5FEB\u6377\u952E","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"FQA/windows/idea\u5FEB\u6377\u952E.md"}');export{e as data};

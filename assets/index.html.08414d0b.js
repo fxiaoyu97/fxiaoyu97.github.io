@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-584831dc","path":"/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/","title":"\u9879\u76EE\u7B14\u8BB0","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"VUE","slug":"vue","link":"#vue","children":[]}],"git":{},"filePathRelative":"\u9879\u76EE\u7B14\u8BB0/README.md"}');export{e as data};
