@@ -38,7 +38,7 @@ function needFilter(file: string): boolean {
   // vuepress配置文件
   if (file === '.vuepress') return true
   // 图片文件夹
-  if (file === 'img' || file === 'image') return true
+  if (file === 'img' || file === 'image' || file === 'assets') return true
   // README文件
   if (file === 'README.md' || file === 'readme.md') return true
   // 图片文件
